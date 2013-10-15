@@ -10,12 +10,14 @@
 *.perspectivev3
 !default.perspectivev3
 xcuserdata
+xcshareddata
 profile
 *.moved-aside
 DerivedData
 .idea/
 *.hmap
 *.xccheckout
+DerivedData
 
 #CocoaPods
 Pods
