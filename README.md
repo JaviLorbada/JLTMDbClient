@@ -52,6 +52,29 @@ $ open JLTMDbClient.xcworkspace
 }];
 ```
 
+## Unit Tests: ##
+
+- JLTMDbClient includes unit tests. In order to run the unit tests, you must install the testing dependencies via CocoaPods:
+
+```
+$ pod install --verbose
+```
+
+- Once testing dependencies are installed, you can execute the tests using JLTMDbClientTests scheme within Xcode.
+
+### Using xctool
+
+- Tests can also be run from the command line or within a continuous integration environment with [`xctool`](https://github.com/facebook/xctool), which can be installed with [Homebrew](http://brew.sh):
+
+```
+$ brew update
+$ brew install xctool --HEAD
+```
+
+- Once `xctool` is installed, you can execute the tests via `rake test`.
+
+- Update: since `xctool` isn't working to me due to [this issue](https://github.com/facebook/xctool/issues/187) for the moment the `rake test` will execute [`xcodebuild`](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/xcodebuild.1.html) instead.
+
 ## Compatibility: ##
 
 - Compatible with [iOS 7.0](https://developer.apple.com/library/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS7.html).
@@ -63,9 +86,9 @@ $ open JLTMDbClient.xcworkspace
 
 ## License: ##
 
-- JLTMDbClient is released under a [MIT-License](http://opensource.org/licenses/MIT). See LICENSE file for more info.
+- JLTMDbClient is released under a [MIT-License](http://opensource.org/licenses/MIT). See [LICENSE](https://github.com/JaviLorbada/JLTMDbClient/blob/master/LICENSE) file for more info.
 
-## Contact:
+## Contact: ##
 
 - [Javi Lorbada](mailto:javugi@gmail.com) 
 - Follow [@javi_lorbada](https://twitter.com/javi_lorbada) on twitter
