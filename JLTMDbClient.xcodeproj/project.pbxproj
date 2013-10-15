@@ -7,20 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		745D206B6F3049069CEEB75E /* libPods-JLTMDbClientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D237CD711E3A453AB9536EBF /* libPods-JLTMDbClientTests.a */; };
+		9A05F4B8230F432FB34CFFD0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 935C018FE24D46C18AA08A8C /* libPods.a */; };
 		D9BAE5C8180DF89500406ED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BAE5C7180DF89500406ED6 /* Foundation.framework */; };
 		D9BAE5CA180DF89500406ED6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BAE5C9180DF89500406ED6 /* CoreGraphics.framework */; };
 		D9BAE5CC180DF89500406ED6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BAE5CB180DF89500406ED6 /* UIKit.framework */; };
-		D9BAE5D2180DF89500406ED6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9BAE5D0180DF89500406ED6 /* InfoPlist.strings */; };
-		D9BAE5D4180DF89500406ED6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BAE5D3180DF89500406ED6 /* main.m */; };
-		D9BAE5D8180DF89500406ED6 /* JLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BAE5D7180DF89500406ED6 /* JLAppDelegate.m */; };
-		D9BAE5DB180DF89500406ED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9BAE5D9180DF89500406ED6 /* Main.storyboard */; };
-		D9BAE5DE180DF89500406ED6 /* JLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BAE5DD180DF89500406ED6 /* JLViewController.m */; };
-		D9BAE5E0180DF89500406ED6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9BAE5DF180DF89500406ED6 /* Images.xcassets */; };
 		D9BAE5E7180DF89500406ED6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BAE5E6180DF89500406ED6 /* XCTest.framework */; };
 		D9BAE5E8180DF89600406ED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BAE5C7180DF89500406ED6 /* Foundation.framework */; };
 		D9BAE5E9180DF89600406ED6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BAE5CB180DF89500406ED6 /* UIKit.framework */; };
 		D9BAE5F1180DF89600406ED6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9BAE5EF180DF89600406ED6 /* InfoPlist.strings */; };
 		D9BAE5F3180DF89600406ED6 /* JLTMDbClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BAE5F2180DF89600406ED6 /* JLTMDbClientTests.m */; };
+		D9BAE614180DFA2100406ED6 /* JLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BAE600180DFA2100406ED6 /* JLAppDelegate.m */; };
+		D9BAE615180DFA2100406ED6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BAE602180DFA2100406ED6 /* main.m */; };
+		D9BAE616180DFA2100406ED6 /* JLMovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BAE606180DFA2100406ED6 /* JLMovieDetailViewController.m */; };
+		D9BAE617180DFA2100406ED6 /* JLMovieTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BAE609180DFA2100406ED6 /* JLMovieTableViewController.m */; };
+		D9BAE618180DFA2100406ED6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9BAE60A180DFA2100406ED6 /* InfoPlist.strings */; };
+		D9BAE61A180DFA2100406ED6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9BAE610180DFA2100406ED6 /* Images.xcassets */; };
+		D9BAE61F180DFA6600406ED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9BAE61D180DFA6600406ED6 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +37,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		315D25797E754046A39AD283 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		935C018FE24D46C18AA08A8C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22ED7FAC22240448D54232A /* Pods-JLTMDbClientTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLTMDbClientTests.xcconfig"; path = "Pods/Pods-JLTMDbClientTests.xcconfig"; sourceTree = "<group>"; };
+		D237CD711E3A453AB9536EBF /* libPods-JLTMDbClientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JLTMDbClientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BAE5C4180DF89500406ED6 /* JLTMDbClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLTMDbClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BAE5C7180DF89500406ED6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D9BAE5C9180DF89500406ED6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D9BAE5CB180DF89500406ED6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D9BAE5CF180DF89500406ED6 /* JLTMDbClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JLTMDbClient-Info.plist"; sourceTree = "<group>"; };
-		D9BAE5D1180DF89500406ED6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D9BAE5D3180DF89500406ED6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D9BAE5D5180DF89500406ED6 /* JLTMDbClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JLTMDbClient-Prefix.pch"; sourceTree = "<group>"; };
-		D9BAE5D6180DF89500406ED6 /* JLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLAppDelegate.h; sourceTree = "<group>"; };
-		D9BAE5D7180DF89500406ED6 /* JLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLAppDelegate.m; sourceTree = "<group>"; };
-		D9BAE5DA180DF89500406ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D9BAE5DC180DF89500406ED6 /* JLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLViewController.h; sourceTree = "<group>"; };
-		D9BAE5DD180DF89500406ED6 /* JLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLViewController.m; sourceTree = "<group>"; };
-		D9BAE5DF180DF89500406ED6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D9BAE5E5180DF89500406ED6 /* JLTMDbClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLTMDbClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BAE5E6180DF89500406ED6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D9BAE5EE180DF89600406ED6 /* JLTMDbClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JLTMDbClientTests-Info.plist"; sourceTree = "<group>"; };
 		D9BAE5F0180DF89600406ED6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9BAE5F2180DF89600406ED6 /* JLTMDbClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLTMDbClientTests.m; sourceTree = "<group>"; };
+		D9BAE5FF180DFA2100406ED6 /* JLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAppDelegate.h; sourceTree = "<group>"; };
+		D9BAE600180DFA2100406ED6 /* JLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAppDelegate.m; sourceTree = "<group>"; };
+		D9BAE601180DFA2100406ED6 /* JLTMDbClient-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JLTMDbClient-Prefix.pch"; sourceTree = "<group>"; };
+		D9BAE602180DFA2100406ED6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9BAE605180DFA2100406ED6 /* JLMovieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMovieDetailViewController.h; sourceTree = "<group>"; };
+		D9BAE606180DFA2100406ED6 /* JLMovieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMovieDetailViewController.m; sourceTree = "<group>"; };
+		D9BAE608180DFA2100406ED6 /* JLMovieTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMovieTableViewController.h; sourceTree = "<group>"; };
+		D9BAE609180DFA2100406ED6 /* JLMovieTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMovieTableViewController.m; sourceTree = "<group>"; };
+		D9BAE60B180DFA2100406ED6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9BAE60E180DFA2100406ED6 /* JLTMDbClient-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JLTMDbClient-Info.plist"; sourceTree = "<group>"; };
+		D9BAE610180DFA2100406ED6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D9BAE61E180DFA6600406ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,7 @@
 				D9BAE5CA180DF89500406ED6 /* CoreGraphics.framework in Frameworks */,
 				D9BAE5CC180DF89500406ED6 /* UIKit.framework in Frameworks */,
 				D9BAE5C8180DF89500406ED6 /* Foundation.framework in Frameworks */,
+				9A05F4B8230F432FB34CFFD0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +83,7 @@
 				D9BAE5E7180DF89500406ED6 /* XCTest.framework in Frameworks */,
 				D9BAE5E9180DF89600406ED6 /* UIKit.framework in Frameworks */,
 				D9BAE5E8180DF89600406ED6 /* Foundation.framework in Frameworks */,
+				745D206B6F3049069CEEB75E /* libPods-JLTMDbClientTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,10 +93,12 @@
 		D9BAE5BB180DF89500406ED6 = {
 			isa = PBXGroup;
 			children = (
-				D9BAE5CD180DF89500406ED6 /* JLTMDbClient */,
+				D9BAE5FC180DFA2100406ED6 /* DemoApplication */,
 				D9BAE5EC180DF89600406ED6 /* JLTMDbClientTests */,
 				D9BAE5C6180DF89500406ED6 /* Frameworks */,
 				D9BAE5C5180DF89500406ED6 /* Products */,
+				315D25797E754046A39AD283 /* Pods.xcconfig */,
+				C22ED7FAC22240448D54232A /* Pods-JLTMDbClientTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,33 +118,10 @@
 				D9BAE5C9180DF89500406ED6 /* CoreGraphics.framework */,
 				D9BAE5CB180DF89500406ED6 /* UIKit.framework */,
 				D9BAE5E6180DF89500406ED6 /* XCTest.framework */,
+				935C018FE24D46C18AA08A8C /* libPods.a */,
+				D237CD711E3A453AB9536EBF /* libPods-JLTMDbClientTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D9BAE5CD180DF89500406ED6 /* JLTMDbClient */ = {
-			isa = PBXGroup;
-			children = (
-				D9BAE5D6180DF89500406ED6 /* JLAppDelegate.h */,
-				D9BAE5D7180DF89500406ED6 /* JLAppDelegate.m */,
-				D9BAE5D9180DF89500406ED6 /* Main.storyboard */,
-				D9BAE5DC180DF89500406ED6 /* JLViewController.h */,
-				D9BAE5DD180DF89500406ED6 /* JLViewController.m */,
-				D9BAE5DF180DF89500406ED6 /* Images.xcassets */,
-				D9BAE5CE180DF89500406ED6 /* Supporting Files */,
-			);
-			path = JLTMDbClient;
-			sourceTree = "<group>";
-		};
-		D9BAE5CE180DF89500406ED6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D9BAE5CF180DF89500406ED6 /* JLTMDbClient-Info.plist */,
-				D9BAE5D0180DF89500406ED6 /* InfoPlist.strings */,
-				D9BAE5D3180DF89500406ED6 /* main.m */,
-				D9BAE5D5180DF89500406ED6 /* JLTMDbClient-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D9BAE5EC180DF89600406ED6 /* JLTMDbClientTests */ = {
@@ -152,6 +142,97 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D9BAE5FC180DFA2100406ED6 /* DemoApplication */ = {
+			isa = PBXGroup;
+			children = (
+				D9BAE5FD180DFA2100406ED6 /* Classes */,
+				D9BAE60C180DFA2100406ED6 /* Resources */,
+			);
+			path = DemoApplication;
+			sourceTree = "<group>";
+		};
+		D9BAE5FD180DFA2100406ED6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D9BAE5FE180DFA2100406ED6 /* App */,
+				D9BAE603180DFA2100406ED6 /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D9BAE5FE180DFA2100406ED6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D9BAE5FF180DFA2100406ED6 /* JLAppDelegate.h */,
+				D9BAE600180DFA2100406ED6 /* JLAppDelegate.m */,
+				D9BAE601180DFA2100406ED6 /* JLTMDbClient-Prefix.pch */,
+				D9BAE602180DFA2100406ED6 /* main.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D9BAE603180DFA2100406ED6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9BAE604180DFA2100406ED6 /* JLMovieDetailViewController */,
+				D9BAE607180DFA2100406ED6 /* JLMovieTableViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D9BAE604180DFA2100406ED6 /* JLMovieDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D9BAE605180DFA2100406ED6 /* JLMovieDetailViewController.h */,
+				D9BAE606180DFA2100406ED6 /* JLMovieDetailViewController.m */,
+			);
+			path = JLMovieDetailViewController;
+			sourceTree = "<group>";
+		};
+		D9BAE607180DFA2100406ED6 /* JLMovieTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D9BAE608180DFA2100406ED6 /* JLMovieTableViewController.h */,
+				D9BAE609180DFA2100406ED6 /* JLMovieTableViewController.m */,
+			);
+			path = JLMovieTableViewController;
+			sourceTree = "<group>";
+		};
+		D9BAE60C180DFA2100406ED6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D9BAE60D180DFA2100406ED6 /* Files */,
+				D9BAE60F180DFA2100406ED6 /* Images */,
+				D9BAE61C180DFA6600406ED6 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D9BAE60D180DFA2100406ED6 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9BAE60A180DFA2100406ED6 /* InfoPlist.strings */,
+				D9BAE60E180DFA2100406ED6 /* JLTMDbClient-Info.plist */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		D9BAE60F180DFA2100406ED6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D9BAE610180DFA2100406ED6 /* Images.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D9BAE61C180DFA6600406ED6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D9BAE61D180DFA6600406ED6 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9BAE5F6180DF89600406ED6 /* Build configuration list for PBXNativeTarget "JLTMDbClient" */;
 			buildPhases = (
+				A9B64B5674DB44C48CAF34DE /* Check Pods Manifest.lock */,
 				D9BAE5C0180DF89500406ED6 /* Sources */,
 				D9BAE5C1180DF89500406ED6 /* Frameworks */,
 				D9BAE5C2180DF89500406ED6 /* Resources */,
+				0AD7463B2D8045FBB99EAD83 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9BAE5F9180DF89600406ED6 /* Build configuration list for PBXNativeTarget "JLTMDbClientTests" */;
 			buildPhases = (
+				ABEBF05EAB9645D686F24C00 /* Check Pods Manifest.lock */,
 				D9BAE5E1180DF89500406ED6 /* Sources */,
 				D9BAE5E2180DF89500406ED6 /* Frameworks */,
 				D9BAE5E3180DF89500406ED6 /* Resources */,
+				EB40FDCB7EFE4FC082651F02 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,9 +309,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9BAE5E0180DF89500406ED6 /* Images.xcassets in Resources */,
-				D9BAE5D2180DF89500406ED6 /* InfoPlist.strings in Resources */,
-				D9BAE5DB180DF89500406ED6 /* Main.storyboard in Resources */,
+				D9BAE61A180DFA2100406ED6 /* Images.xcassets in Resources */,
+				D9BAE618180DFA2100406ED6 /* InfoPlist.strings in Resources */,
+				D9BAE61F180DFA6600406ED6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,14 +325,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AD7463B2D8045FBB99EAD83 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9B64B5674DB44C48CAF34DE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABEBF05EAB9645D686F24C00 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB40FDCB7EFE4FC082651F02 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-JLTMDbClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D9BAE5C0180DF89500406ED6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9BAE5D8180DF89500406ED6 /* JLAppDelegate.m in Sources */,
-				D9BAE5DE180DF89500406ED6 /* JLViewController.m in Sources */,
-				D9BAE5D4180DF89500406ED6 /* main.m in Sources */,
+				D9BAE617180DFA2100406ED6 /* JLMovieTableViewController.m in Sources */,
+				D9BAE615180DFA2100406ED6 /* main.m in Sources */,
+				D9BAE614180DFA2100406ED6 /* JLAppDelegate.m in Sources */,
+				D9BAE616180DFA2100406ED6 /* JLMovieDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,28 +419,29 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D9BAE5D0180DF89500406ED6 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D9BAE5D1180DF89500406ED6 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D9BAE5D9180DF89500406ED6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D9BAE5DA180DF89500406ED6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D9BAE5EF180DF89600406ED6 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D9BAE5F0180DF89600406ED6 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9BAE60A180DFA2100406ED6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9BAE60B180DFA2100406ED6 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D9BAE61D180DFA6600406ED6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9BAE61E180DFA6600406ED6 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -371,12 +521,13 @@
 		};
 		D9BAE5F7180DF89600406ED6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 315D25797E754046A39AD283 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JLTMDbClient/JLTMDbClient-Prefix.pch";
-				INFOPLIST_FILE = "JLTMDbClient/JLTMDbClient-Info.plist";
+				GCC_PREFIX_HEADER = "DemoApplication/Classes/App/JLTMDbClient-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DemoApplication/Resources/Files/JLTMDbClient-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -384,12 +535,13 @@
 		};
 		D9BAE5F8180DF89600406ED6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 315D25797E754046A39AD283 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JLTMDbClient/JLTMDbClient-Prefix.pch";
-				INFOPLIST_FILE = "JLTMDbClient/JLTMDbClient-Info.plist";
+				GCC_PREFIX_HEADER = "DemoApplication/Classes/App/JLTMDbClient-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DemoApplication/Resources/Files/JLTMDbClient-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -397,6 +549,7 @@
 		};
 		D9BAE5FA180DF89600406ED6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C22ED7FAC22240448D54232A /* Pods-JLTMDbClientTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -405,7 +558,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JLTMDbClient/JLTMDbClient-Prefix.pch";
+				GCC_PREFIX_HEADER = "DemoApplication/Classes/App/JLTMDbClient-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -418,6 +571,7 @@
 		};
 		D9BAE5FB180DF89600406ED6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C22ED7FAC22240448D54232A /* Pods-JLTMDbClientTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -426,7 +580,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JLTMDbClient/JLTMDbClient-Prefix.pch";
+				GCC_PREFIX_HEADER = "DemoApplication/Classes/App/JLTMDbClient-Prefix.pch";
 				INFOPLIST_FILE = "JLTMDbClientTests/JLTMDbClientTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
@@ -452,6 +606,7 @@
 				D9BAE5F8180DF89600406ED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9BAE5F9180DF89600406ED6 /* Build configuration list for PBXNativeTarget "JLTMDbClientTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +615,7 @@
 				D9BAE5FB180DF89600406ED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
