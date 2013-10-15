@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "JLTMDbClient"
-  s.version      = "0.0.1"
+  s.version      = "0.1.0"
   s.summary      = "JLTMDbClient is an iOS wrapper on top of AFNetworking to interact with www.themoviedb.org API"
   s.homepage     = "https://github.com/JaviLorbada/JLTMDbClient"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
