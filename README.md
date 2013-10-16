@@ -24,6 +24,8 @@ $ open JLTMDbClient.xcworkspace
 ```
 
 4. Run JLTMDbClient target to see a simple visual example.
+
+
  ![Screenshot](https://dl.dropboxusercontent.com/u/27371680/Images/Github/JLTMDbClient/MovieList_1.png) 
  ![Screenshot](https://dl.dropboxusercontent.com/u/27371680/Images/Github/JLTMDbClient/MovieDetail_1.png) 
 
