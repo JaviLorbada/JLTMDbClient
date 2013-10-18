@@ -2,8 +2,8 @@ JLTMDbClient [![License MIT](http://b.repl.ca/v1/License-MIT-blue.png)](https://
 ==============
 
 
-![Screenshot](http://cocoapod-badges.herokuapp.com/v/JLTMDbClient/badge.png)
-![Screenshot](http://cocoapod-badges.herokuapp.com/p/JLTMDbClient/badge.png)
+[![Badge w/ Version](http://cocoapod-badges.herokuapp.com/v/JLTMDbClient/badge.png)](https://github.com/JaviLorbada/JLTMDbClient/releases/tag/0.1.0)
+![Badge w/ Platform](https://cocoapod-badges.herokuapp.com/p/JLTMDbClient/badge.svg)
 
 - JLTMDbClient is an iOS wrapper on top of AFNetworking to interact with [themoviedb.org](www.themoviedb.org) API.
 
@@ -49,7 +49,7 @@ $ open JLTMDbClient.xcworkspace
 ```
 [[JLTMDbClient sharedAPIInstance] setAPIKey:@"API_KEY"];
 ```
-3. Call a service to get the response from the server, i.e:
+3. Call a service to get the response from the server *, i.e:
 
 
 ```
@@ -60,6 +60,8 @@ $ open JLTMDbClient.xcworkspace
     }
 }];
 ```
+
+- ###[Table of contents](https://github.com/JaviLorbada/JLTMDbClient/blob/master/JLTMDbClient/JLTMDbClientDefines.h)###
 
 ## Unit Tests: ##
 
