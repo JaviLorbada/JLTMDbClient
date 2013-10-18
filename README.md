@@ -2,7 +2,7 @@ JLTMDbClient [![License MIT](http://b.repl.ca/v1/License-MIT-blue.png)](https://
 ==============
 
 
-[![Badge w/ Version](http://cocoapod-badges.herokuapp.com/v/JLTMDbClient/badge.png)](https://github.com/JaviLorbada/JLTMDbClient/releases/tag/0.1.0)
+[![Badge w/ Version](http://cocoapod-badges.herokuapp.com/v/JLTMDbClient/badge.svg)](https://github.com/JaviLorbada/JLTMDbClient/releases/tag/0.1.0)
 ![Badge w/ Platform](https://cocoapod-badges.herokuapp.com/p/JLTMDbClient/badge.svg)
 
 - JLTMDbClient is an iOS wrapper on top of AFNetworking to interact with [themoviedb.org](www.themoviedb.org) API.
