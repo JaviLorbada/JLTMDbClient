@@ -1,5 +1,9 @@
-JLTMDbClient
+JLTMDbClient [![License MIT](http://b.repl.ca/v1/License-MIT-blue.png)](https://github.com/JaviLorbada/JLTMDbClient/blob/master/LICENSE)
 ==============
+
+
+![Screenshot](http://cocoapod-badges.herokuapp.com/v/JLTMDbClient/badge.png)
+![Screenshot](http://cocoapod-badges.herokuapp.com/p/JLTMDbClient/badge.png)
 
 - JLTMDbClient is an iOS wrapper on top of AFNetworking to interact with [themoviedb.org](www.themoviedb.org) API.
 
@@ -22,7 +26,6 @@ $ pod install --verbose
 ```
 $ open JLTMDbClient.xcworkspace
 ```
-
 4. Run JLTMDbClient target to see a simple visual example.
 
 
@@ -33,7 +36,11 @@ $ open JLTMDbClient.xcworkspace
 
 ## Usage: ##
 
-- First, add JLTMDbClient to your application, and set up your API KEY.
+1. Get your API KEY from [themoviedb.org](http://www.themoviedb.org/documentation/api)
+
+> "A TMDb user account is required to request an API key. Commercial users are approved on a per application basis. As always, you must attribute TMDb as the source of your data. Please be sure to read the [API FAQ](http://www.themoviedb.org/faq/api)"
+
+2. Add JLTMDbClient to your application, and set up your API KEY.
 
 ```
 #import <JLTMDbClient.h>
@@ -42,7 +49,7 @@ $ open JLTMDbClient.xcworkspace
 ```
 [[JLTMDbClient sharedAPIInstance] setAPIKey:@"API_KEY"];
 ```
-- Second, call a service to get the response from the server, i.e:
+3. Call a service to get the response from the server, i.e:
 
 
 ```
@@ -88,11 +95,14 @@ $ brew install xctool --HEAD
 
 ## License: ##
 
-- JLTMDbClient is released under a [MIT-License](http://opensource.org/licenses/MIT). See [LICENSE](https://github.com/JaviLorbada/JLTMDbClient/blob/master/LICENSE) file for more info.
+- JLTMDbClient is released under a [MIT-License](http://opensource.org/licenses/MIT). See [License](https://github.com/JaviLorbada/JLTMDbClient/blob/master/LICENSE) file for more info.
+
+## Credits: ##
+
+- Thanks to [Flávio Caetano](https://github.com/fjcaetano) and his project [cocoapods-badges](https://github.com/fjcaetano/cocoapod-badges) for the generated badges at the top.
 
 ## Contact: ##
 
 - [Javi Lorbada](mailto:javugi@gmail.com) 
 - Follow [@javi_lorbada](https://twitter.com/javi_lorbada) on twitter
 - [http://javilorbada.me/](http://javilorbada.me/)
-.
