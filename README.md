@@ -61,7 +61,7 @@ $ open JLTMDbClient.xcworkspace
 }];
 ```
 
-- ###[Table of contents](https://github.com/JaviLorbada/JLTMDbClient/blob/master/JLTMDbClient/JLTMDbClientDefines.h)###
+- [###Table of contents###](https://github.com/JaviLorbada/JLTMDbClient/blob/master/JLTMDbClient/JLTMDbClientDefines.h)
 
 ## Unit Tests: ##
 
