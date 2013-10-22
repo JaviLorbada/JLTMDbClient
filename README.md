@@ -9,7 +9,7 @@ JLTMDbClient [![License MIT](http://b.repl.ca/v1/License-MIT-blue.png)](https://
 - The best way to get JLTMDbClient is by using [CocoaPods](http://cocoapods.org/). 
 - [How to install CocoaPods](https://speakerdeck.com/javilorbada/introduction-to-cocoapods?slide=13)
 
-## Demo App: ##
+## Demo App: ## 
 
 1. Clone the repository:
 ```
@@ -19,6 +19,8 @@ $ git clone git@github.com:JaviLorbada/JLTMDbClient.git
 ```
 $ pod install --verbose
 ```
+** If you don't use / like Cocoapods, just [download the zip](https://app.box.com/s/4bxyuvrgzusv6u7d5z9a).
+
 3. Open the ```.xcworkspace``` file to see the example:
 ```
 $ open JLTMDbClient.xcworkspace
