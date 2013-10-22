@@ -2,7 +2,7 @@ platform :ios, '7.0'
 
 def import_pods
 	pod "AFNetworking", "~> 2.0.0"
-	pod 'JLTMDbClient', :path => 'JLTMDbClient.podspec'
+	pod 'JLTMDbClient', "~> 0.1.0"
 end
 
 import_pods
