@@ -28,8 +28,8 @@ $ open JLTMDbClient.xcworkspace
 4. Run JLTMDbClient target to see a simple visual example.
 
 
- ![Screenshot](https://dl.dropboxusercontent.com/u/27371680/Images/Github/JLTMDbClient/MovieList_1.png) 
- ![Screenshot](https://dl.dropboxusercontent.com/u/27371680/Images/Github/JLTMDbClient/MovieDetail_1.png) 
+ ![Screenshot](https://dl.dropboxusercontent.com/u/27371680/Images/Github/JLTMDbClient/MovieList.png) 
+ ![Screenshot](https://dl.dropboxusercontent.com/u/27371680/Images/Github/JLTMDbClient/MovieDetail.png) 
 
 5. Run JLTMDbClientTests target to see different cases on how to use the API.
 
@@ -81,9 +81,24 @@ $ brew update
 $ brew install xctool --HEAD
 ```
 
+> "JLTMDBClientTests requires xctool [0.1.14](https://github.com/facebook/xctool/releases/tag/v0.1.14) or above"
+
 - Once `xctool` is installed, you can execute the tests via `rake test`.
 
-- Update: since `xctool` isn't working to me due to [this issue](https://github.com/facebook/xctool/issues/187) for the moment the `rake test` will execute [`xcodebuild`](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/xcodebuild.1.html) instead.
+ ![Screenshot](https://dl.dropboxusercontent.com/u/27371680/Images/Github/JLTMDbClient/JLTMDBClientTest_xctool.gif) 
+
+### Using XCPretty
+
+- Tests can also be run from the command line or within a continuous integration environment with [`XCPretty`](https://github.com/mneorr/XCPretty), which can be installed:
+> "XCPretty requires Ruby 1.8.7 or above."
+
+```
+$ gem install xcpretty
+```
+
+- Once `XCPretty` is installed, you can execute the tests via `make test` or `make ci`.
+
+ ![Screenshot](https://dl.dropboxusercontent.com/u/27371680/Images/Github/JLTMDbClient/JLTMDBClientTest_xcpretty.gif) 
 
 ## Compatibility: ##
 
