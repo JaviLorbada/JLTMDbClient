@@ -1,9 +1,9 @@
 namespace :test do
   desc "Run the JLTMDbClient Tests"
   task :all do
-    # $success = system("xctool -workspace JLTMDbClient.xcworkspace -scheme JLTMDbClientTests -sdk iphonesimulator test -test-sdk iphonesimulator")
     system("xcodebuild clean -target JLTMDbClientTests")
-    $success = system("xcodebuild test -workspace JLTMDbClient.xcworkspace -scheme JLTMDbClientTests -sdk iphonesimulator")
+    $success = system("xctool -workspace JLTMDbClient.xcworkspace -scheme JLTMDbClientTests -sdk iphonesimulator test -test-sdk iphonesimulator")
+    # $success = system("xcodebuild test -workspace JLTMDbClient.xcworkspace -scheme JLTMDbClientTests -sdk iphonesimulator")
   end
 end
 

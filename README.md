@@ -9,7 +9,7 @@ JLTMDbClient [![License MIT](http://b.repl.ca/v1/License-MIT-blue.png)](https://
 - The best way to get JLTMDbClient is by using [CocoaPods](http://cocoapods.org/). 
 - [How to install CocoaPods](https://speakerdeck.com/javilorbada/introduction-to-cocoapods?slide=13)
 
-## Demo App: ## 
+## Demo App:
 
 1. Clone the repository:
 ```
