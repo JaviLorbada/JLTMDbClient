@@ -90,11 +90,12 @@ $ brew install xctool --HEAD
 ### Using XCPretty
 
 - Tests can also be run from the command line or within a continuous integration environment with [`XCPretty`](https://github.com/mneorr/XCPretty), which can be installed:
-> "XCPretty requires Ruby 1.8.7 or above."
 
 ```
 $ gem install xcpretty
 ```
+
+> "XCPretty requires Ruby 1.8.7 or above."
 
 - Once `XCPretty` is installed, you can execute the tests via `make test` or `make ci`.
 
