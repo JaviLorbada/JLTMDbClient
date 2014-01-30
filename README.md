@@ -123,3 +123,7 @@ $ gem install xcpretty
 - [Javi Lorbada](mailto:javugi@gmail.com) 
 - Follow [@javi_lorbada](https://twitter.com/javi_lorbada) on twitter
 - [http://javilorbada.me/](http://javilorbada.me/)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/JaviLorbada/jltmdbclient/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
