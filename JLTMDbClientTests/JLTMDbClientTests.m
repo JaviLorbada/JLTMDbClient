@@ -30,6 +30,8 @@ SPEC_BEGIN(JLTMDbClientSpec)
 
 describe(@"", ^{
     
+    static int timeout = 5;
+    
     context(@"JLTMDbClient", ^{
         beforeAll(^{
             // Reset the singleton
@@ -82,8 +84,8 @@ describe(@"", ^{
                     NSLog(@"Configuration: %@",fetchedData);
                 }
             }];
-            [[expectFutureValue(fetchedData) shouldEventually] beNonNil];
-            [[expectFutureValue(fetchedData) shouldEventually] beKindOfClass:[NSDictionary class]];
+            [[expectFutureValue(fetchedData) shouldEventuallyBeforeTimingOutAfter(timeout)] beNonNil];
+            [[expectFutureValue(fetchedData) shouldEventuallyBeforeTimingOutAfter(timeout)] beKindOfClass:[NSDictionary class]];
             [[expectFutureValue(fetchedData[@"images"][@"base_url"]) shouldEventually] beKindOfClass:[NSString class]];
         });
         
@@ -105,8 +107,8 @@ describe(@"", ^{
                     NSLog(@"Movie: %@",fetchedData);
                 }
             }];
-            [[expectFutureValue(fetchedData) shouldEventually] beNonNil];
-            [[expectFutureValue(fetchedData) shouldEventually] beKindOfClass:[NSDictionary class]];
+            [[expectFutureValue(fetchedData) shouldEventuallyBeforeTimingOutAfter(timeout)] beNonNil];
+            [[expectFutureValue(fetchedData) shouldEventuallyBeforeTimingOutAfter(timeout)] beKindOfClass:[NSDictionary class]];
         });
         
         it(@"Should receive Movie Images data within one second", ^{
@@ -118,10 +120,10 @@ describe(@"", ^{
                     NSLog(@"Movie Images: %@",fetchedData);
                 }
             }];
-            [[expectFutureValue(fetchedData) shouldEventually] beNonNil];
-            [[expectFutureValue(fetchedData) shouldEventually] beKindOfClass:[NSDictionary class]];
-            [[expectFutureValue(fetchedData[@"backdrops"]) shouldEventually] beKindOfClass:[NSArray class]];
-            [[expectFutureValue(fetchedData[@"posters"]) shouldEventually] beKindOfClass:[NSArray class]];
+            [[expectFutureValue(fetchedData) shouldEventuallyBeforeTimingOutAfter(timeout)] beNonNil];
+            [[expectFutureValue(fetchedData) shouldEventuallyBeforeTimingOutAfter(timeout)] beKindOfClass:[NSDictionary class]];
+            [[expectFutureValue(fetchedData[@"backdrops"]) shouldEventuallyBeforeTimingOutAfter(timeout)] beKindOfClass:[NSArray class]];
+            [[expectFutureValue(fetchedData[@"posters"]) shouldEventuallyBeforeTimingOutAfter(timeout)] beKindOfClass:[NSArray class]];
         });
         
         it(@"Should receive Popular Movies data within one second", ^{
@@ -133,8 +135,8 @@ describe(@"", ^{
                     NSLog(@"Popular Movies: %@",fetchedData);
                 }
             }];
-            [[expectFutureValue(fetchedData) shouldEventually] beNonNil];
-            [[expectFutureValue(fetchedData) shouldEventually] beKindOfClass:[NSDictionary class]];
+            [[expectFutureValue(fetchedData) shouldEventuallyBeforeTimingOutAfter(timeout)] beNonNil];
+            [[expectFutureValue(fetchedData) shouldEventuallyBeforeTimingOutAfter(timeout)] beKindOfClass:[NSDictionary class]];
         });
     });
     
@@ -148,8 +150,8 @@ describe(@"", ^{
                     NSLog(@"Error: %@",requestError.description);
                 }
             }];
-            [[expectFutureValue(requestError) shouldEventually] beNonNil];
-            [[expectFutureValue(requestError) shouldEventually] beKindOfClass:[NSError class]];
+            [[expectFutureValue(requestError) shouldEventuallyBeforeTimingOutAfter(timeout)] beNonNil];
+            [[expectFutureValue(requestError) shouldEventuallyBeforeTimingOutAfter(timeout)] beKindOfClass:[NSError class]];
         });
     });
     
