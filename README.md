@@ -1,4 +1,4 @@
-JLTMDbClient [![License MIT](http://b.repl.ca/v1/License-MIT-blue.png)](https://github.com/JaviLorbada/JLTMDbClient/blob/master/LICENSE) [![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/JLTMDbClient/0.1.0/badge.png)](https://github.com/JaviLorbada/JLTMDbClient/releases/tag/0.1.0) ![Badge w/ Platform](https://cocoapod-badges.herokuapp.com/p/JLTMDbClient/badge.png) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/JaviLorbada/jltmdbclient/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+JLTMDbClient [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/JaviLorbada/jltmdbclient/trend.png)](https://bitdeli.com/free "Bitdeli Badge") [![License MIT](http://b.repl.ca/v1/License-MIT-blue.png)](https://github.com/JaviLorbada/JLTMDbClient/blob/master/LICENSE) [![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/JLTMDbClient/0.1.0/badge.png)](https://github.com/JaviLorbada/JLTMDbClient/releases/tag/0.1.0) ![Badge w/ Platform](https://cocoapod-badges.herokuapp.com/p/JLTMDbClient/badge.png)
 ==============
 
 
@@ -15,23 +15,15 @@ JLTMDbClient [![License MIT](http://b.repl.ca/v1/License-MIT-blue.png)](https://
 ```
 $ git clone git@github.com:JaviLorbada/JLTMDbClient.git
 ```
-2. Installing Pods:
-```
-$ pod install --verbose
-```
-** If you don't use / like Cocoapods, just [download the zip](https://app.box.com/s/4bxyuvrgzusv6u7d5z9a).
-
-3. Open the ```.xcworkspace``` file to see the example:
+2. Open the ```.xcworkspace``` file to see the example:
 ```
 $ open JLTMDbClient.xcworkspace
 ```
-4. Run JLTMDbClient target to see a simple visual example.
-
+3. Run JLTMDbClient target to see a simple visual example.
+4. Run JLTMDbClientTests target to see different cases on how to use the API.
 
  ![Screenshot](https://dl.dropboxusercontent.com/u/27371680/Images/Github/JLTMDbClient/MovieList.png) 
  ![Screenshot](https://dl.dropboxusercontent.com/u/27371680/Images/Github/JLTMDbClient/MovieDetail.png) 
-
-5. Run JLTMDbClientTests target to see different cases on how to use the API.
 
 ## Usage: ##
 
@@ -64,13 +56,7 @@ $ open JLTMDbClient.xcworkspace
 
 ## Unit Tests: ##
 
-- JLTMDbClient includes unit tests. In order to run the unit tests, you must install the testing dependencies via CocoaPods:
-
-```
-$ pod install --verbose
-```
-
-- Once testing dependencies are installed, you can execute the tests using JLTMDbClientTests scheme within Xcode.
+- JLTMDbClient includes unit tests. In order to run the unit tests, you need to add your API_KEY. Then you can execute the tests using JLTMDbClientTests scheme within Xcode.
 
 ### Using xctool
 

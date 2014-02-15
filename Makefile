@@ -19,3 +19,9 @@ install:
 
 ci:
 	$(DEFAULT_TASK) test | xcpretty -c
+
+report_html:
+	$(DEFAULT_TASK) test | xcpretty -c --report html
+
+report_junit:
+	$(DEFAULT_TASK) test | xcpretty -c --report junit
