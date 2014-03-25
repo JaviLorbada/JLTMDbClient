@@ -1,8 +1,8 @@
 platform :ios, '7.0'
 
 def import_pods
-	pod "AFNetworking"
-	pod 'JLTMDbClient', "~> 0.1"
+	pod 'AFNetworking'
+	pod 'JLTMDbClient'
 end
 
 import_pods
