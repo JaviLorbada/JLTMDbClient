@@ -30,7 +30,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    [[JLTMDbClient sharedAPIInstance] setAPIKey:@"API_KEY"];
+    [[JLTMDbClient sharedAPIInstance] setAPIKey:@"Place your API Key here"];
     return YES;
 }
 							
