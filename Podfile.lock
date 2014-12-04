@@ -1,39 +1,36 @@
 PODS:
-  - AFNetworking (2.2.1):
-    - AFNetworking/NSURLConnection
-    - AFNetworking/NSURLSession
+  - AFNetworking (2.5.0):
+    - AFNetworking/NSURLConnection (= 2.5.0)
+    - AFNetworking/NSURLSession (= 2.5.0)
+    - AFNetworking/Reachability (= 2.5.0)
+    - AFNetworking/Security (= 2.5.0)
+    - AFNetworking/Serialization (= 2.5.0)
+    - AFNetworking/UIKit (= 2.5.0)
+  - AFNetworking/NSURLConnection (2.5.0):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-    - AFNetworking/UIKit
-  - AFNetworking/NSURLConnection (2.2.1):
+  - AFNetworking/NSURLSession (2.5.0):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.2.1):
-    - AFNetworking/NSURLConnection
-  - AFNetworking/Reachability (2.2.1)
-  - AFNetworking/Security (2.2.1)
-  - AFNetworking/Serialization (2.2.1)
-  - AFNetworking/UIKit (2.2.1):
+  - AFNetworking/Reachability (2.5.0)
+  - AFNetworking/Security (2.5.0)
+  - AFNetworking/Serialization (2.5.0)
+  - AFNetworking/UIKit (2.5.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - JLTMDbClient (0.1.0):
-    - AFNetworking (~> 2.0.0)
-  - Kiwi/ARC (2.2.4)
-  - Kiwi/NonARC (2.2.4)
-  - Kiwi/XCTest (2.2.4):
-    - Kiwi/ARC
-    - Kiwi/NonARC
+  - JLTMDbClient (0.2.0):
+    - AFNetworking (~> 2.0)
+  - Kiwi (2.3.1)
 
 DEPENDENCIES:
-  - AFNetworking
-  - JLTMDbClient
-  - Kiwi/XCTest
+  - JLTMDbClient (~> 0.2.0)
+  - Kiwi
 
 SPEC CHECKSUMS:
-  AFNetworking: 0121f4b69be3fa58d1ab317866e036e12ac9651d
-  JLTMDbClient: 2359fb8d71c4c4451ad102a574df7544a4d24bb9
-  Kiwi: d60d7498b640a16f58b01925fc3c8d7c4d809f66
+  AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
+  JLTMDbClient: b24f6c3a2031a1445c9ee14d9b68d82c16d27cfb
+  Kiwi: 73e1400209055ee9c8ba78c6012b6b642d0fb9f7
 
-COCOAPODS: 0.29.0
+COCOAPODS: 0.35.0
