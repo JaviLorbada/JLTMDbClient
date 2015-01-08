@@ -1,4 +1,4 @@
-JLTMDbClient  [![License MIT](http://b.repl.ca/v1/License-MIT-blue.png)](https://github.com/JaviLorbada/JLTMDbClient/blob/master/LICENSE) [![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/JLTMDbClient/0.1.0/badge.png)](https://github.com/JaviLorbada/JLTMDbClient/releases/tag/0.1.0) ![Badge w/ Platform](https://cocoapod-badges.herokuapp.com/p/JLTMDbClient/badge.png)
+JLTMDbClient  [![License MIT](https://img.shields.io/cocoapods/l/JLTMDbClient.svg?style=flat)](https://github.com/JaviLorbada/JLTMDbClient/blob/master/LICENSE) [![Badge w/ Version](https://img.shields.io/cocoapods/v/JLTMDbClient.svg?style=flat)](https://github.com/JaviLorbada/JLTMDbClient/releases/tag/0.3.0) ![Badge w/ Platform](https://img.shields.io/cocoapods/p/JLTMDbClient.svg?style=flat)
 ==============
 
 
@@ -99,10 +99,6 @@ $ gem install xcpretty
 ## License: ##
 
 - JLTMDbClient is released under a [MIT-License](http://opensource.org/licenses/MIT). See [License](https://github.com/JaviLorbada/JLTMDbClient/blob/master/LICENSE) file for more info.
-
-## Credits: ##
-
-- Thanks to [Flávio Caetano](https://github.com/fjcaetano) and his project [cocoapods-badges](https://github.com/fjcaetano/cocoapod-badges) for the generated badges at the top.
 
 ## Contact: ##
 
