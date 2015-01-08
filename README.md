@@ -1,4 +1,4 @@
-JLTMDbClient  [![License MIT](https://img.shields.io/cocoapods/l/JLTMDbClient.svg?style=flat)](https://github.com/JaviLorbada/JLTMDbClient/blob/master/LICENSE) [![Badge w/ Version](https://img.shields.io/cocoapods/v/JLTMDbClient.svg?style=flat)](https://github.com/JaviLorbada/JLTMDbClient/releases/tag/0.3.0) ![Badge w/ Platform](https://img.shields.io/cocoapods/p/JLTMDbClient.svg?style=flat)
+JLTMDbClient  [![Version](https://img.shields.io/cocoapods/v/JLTMDbClient.svg?style=flat)](http://cocoadocs.org/docsets/JLTMDbClient) [![License](https://img.shields.io/cocoapods/l/JLTMDbClient.svg?style=flat)](http://cocoadocs.org/docsets/JLTMDbClient) [![Platform](https://img.shields.io/cocoapods/p/JLTMDbClient.svg?style=flat)](http://cocoadocs.org/docsets/JLTMDbClient)
 ==============
 
 
