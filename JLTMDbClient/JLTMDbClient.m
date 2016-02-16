@@ -65,9 +65,11 @@ static dispatch_once_t onceToken;
         service = [service stringByReplacingOccurrencesOfString:@"{id}" withString:keyParameters[@"id"]];
     }
     
-    [self GET:service parameters:keyParameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [self GET:service parameters:keyParameters progress:^(NSProgress * _Nonnull downloadProgress) {
+        
+    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         block(responseObject, nil);
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         block(nil, error);
     }];
 }
