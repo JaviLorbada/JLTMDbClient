@@ -1,5 +1,5 @@
 #JLTMDbClient  
-[![Version](https://img.shields.io/cocoapods/v/JLTMDbClient.svg?style=flat)](http://cocoadocs.org/docsets/JLTMDbClient) [![License](https://img.shields.io/cocoapods/l/JLTMDbClient.svg?style=flat)](http://cocoadocs.org/docsets/JLTMDbClient) [![Platform](https://img.shields.io/cocoapods/p/JLTMDbClient.svg?style=flat)](http://cocoadocs.org/docsets/JLTMDbClient)
+[![Version](https://img.shields.io/cocoapods/v/JLTMDbClient.svg?style=flat)](http://cocoadocs.org/docsets/JLTMDbClient) [![License](https://img.shields.io/cocoapods/l/JLTMDbClient.svg?style=flat)](http://cocoadocs.org/docsets/JLTMDbClient) [![Platform](https://img.shields.io/cocoapods/p/JLTMDbClient.svg?style=flat)](http://cocoadocs.org/docsets/JLTMDbClient) [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 - JLTMDbClient is an iOS wrapper on top of AFNetworking to interact with [themoviedb.org](www.themoviedb.org) API.
 
@@ -93,7 +93,7 @@ $ gem install xcpretty
 
 ## Dependencies: ##
 
-- [AFNetworking](https://github.com/AFNetworking/AFNetworking) 2.0.0 or superior.
+- [AFNetworking](https://github.com/AFNetworking/AFNetworking) 3.0.0 or superior.
 
 ## License: ##
 
