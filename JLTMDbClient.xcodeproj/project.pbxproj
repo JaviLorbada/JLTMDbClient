@@ -257,6 +257,7 @@
 				D9BAE5C1180DF89500406ED6 /* Frameworks */,
 				D9BAE5C2180DF89500406ED6 /* Resources */,
 				0AD7463B2D8045FBB99EAD83 /* Copy Pods Resources */,
+				10DF0C3461AE310FCC9EE581 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -276,6 +277,7 @@
 				D9BAE5E2180DF89500406ED6 /* Frameworks */,
 				D9BAE5E3180DF89500406ED6 /* Resources */,
 				EB40FDCB7EFE4FC082651F02 /* Copy Pods Resources */,
+				57D451F9A70226298C1B62E2 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,7 +296,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = JL;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = JaviLorbada;
 			};
 			buildConfigurationList = D9BAE5BF180DF89500406ED6 /* Build configuration list for PBXProject "JLTMDbClient" */;
@@ -351,6 +353,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10DF0C3461AE310FCC9EE581 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57D451F9A70226298C1B62E2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLTMDbClientTests/Pods-JLTMDbClientTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A9B64B5674DB44C48CAF34DE /* Check Pods Manifest.lock */ = {
@@ -477,6 +509,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -539,6 +572,7 @@
 				GCC_PREFIX_HEADER = "DemoApplication/Classes/App/JLTMDbClient-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/DemoApplication/Resources/Files/JLTMDbClient-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.javilorbada.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -554,6 +588,7 @@
 				GCC_PREFIX_HEADER = "DemoApplication/Classes/App/JLTMDbClient-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/DemoApplication/Resources/Files/JLTMDbClient-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.javilorbada.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -575,6 +610,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "JLTMDbClientTests/JLTMDbClientTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.javilorbada.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -592,6 +628,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoApplication/Classes/App/JLTMDbClient-Prefix.pch";
 				INFOPLIST_FILE = "JLTMDbClientTests/JLTMDbClientTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.javilorbada.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
