@@ -1,11 +1,16 @@
 # JLTMDbClient  
 [![Version](https://img.shields.io/cocoapods/v/JLTMDbClient.svg?style=flat)](http://cocoadocs.org/docsets/JLTMDbClient) [![License](https://img.shields.io/cocoapods/l/JLTMDbClient.svg?style=flat)](http://cocoadocs.org/docsets/JLTMDbClient) [![Platform](https://img.shields.io/cocoapods/p/JLTMDbClient.svg?style=flat)](http://cocoadocs.org/docsets/JLTMDbClient) [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
+> **This project is no longer maintained.** The repository is archived and no new versions will be released. The last version, 0.4.0, is still available on CocoaPods.
+
 - JLTMDbClient is an iOS wrapper on top of AFNetworking to interact with [themoviedb.org](www.themoviedb.org) API.
 
 ## Installation: ##
 
-- The best way to get JLTMDbClient is by using [CocoaPods](http://cocoapods.org/). 
+- JLTMDbClient is available through [CocoaPods](http://cocoapods.org/):
+```
+pod 'JLTMDbClient', '~> 0.4.0'
+```
 - [How to install CocoaPods](https://speakerdeck.com/javilorbada/introduction-to-cocoapods?slide=13)
 
 ## Demo App:
@@ -20,9 +25,6 @@ $ open JLTMDbClient.xcworkspace
 ```
 3. Run JLTMDbClient target to see a simple visual example.
 4. Run JLTMDbClientTests target to see different cases on how to use the API.
-
- ![Screenshot](https://dl.dropboxusercontent.com/u/27371680/Images/Github/JLTMDbClient/MovieList.png) 
- ![Screenshot](https://dl.dropboxusercontent.com/u/27371680/Images/Github/JLTMDbClient/MovieDetail.png) 
 
 ## Usage: ##
 
@@ -70,8 +72,6 @@ $ brew install xctool --HEAD
 
 - Once `xctool` is installed, you can execute the tests via `rake test`.
 
- ![Screenshot](https://dl.dropboxusercontent.com/u/27371680/Images/Github/JLTMDbClient/JLTMDBClientTest_xctool.gif) 
-
 ### Using XCPretty
 
 - Tests can also be run from the command line or within a continuous integration environment with [`XCPretty`](https://github.com/mneorr/XCPretty), which can be installed:
@@ -83,8 +83,6 @@ $ gem install xcpretty
 > "XCPretty requires Ruby 1.8.7 or above."
 
 - Once `XCPretty` is installed, you can execute the tests via `make test` or `make ci`.
-
- ![Screenshot](https://dl.dropboxusercontent.com/u/27371680/Images/Github/JLTMDbClient/JLTMDBClientTest_xcpretty.gif) 
 
 ## Compatibility: ##
 
